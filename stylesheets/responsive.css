@@ -24,6 +24,12 @@
         margin-top: 20px;
     }
 
+
+
+}
+
+@media (min-width:0px) and (max-width:654px) {
+
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
         float: right;
@@ -42,27 +48,40 @@
         text-align: left;
     }
 
-    .topnav {
-
-    }
-
     .lolik {
         flex-direction: column;
         align-items: flex-start;
         width: 400px;
     }
-
-}
-
-@media (min-width:0px) and (max-width:654px) {
-
-
     .info {
-        width: 90vw;
-        align-items: center;
+        margin: 0;
     }
-
-
+    .general {
+        justify-content: space-around;
+    }
+    .bok {
+        margin-right: 5px;
+    }
+    .header3 {
+        line-height: 46px;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .text {
+        margin-top: 30px;
+    }
+    .general1 {
+        width: auto;
+        font-size: 50px;
+    }
+    .general2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .svyaz {
+        margin: auto;
+        margin-top: 70px;
+    }
     .form1 {
         flex-direction: column;
     }
