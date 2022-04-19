@@ -16,7 +16,47 @@ hr {
     background-color: white;
     margin-top: 20px;
 }
+.active {
+    color: white;
+    font-weight: 400;
+    font-size: 40px !important;
+    /*line-height: 49px;*/
+}
+.topnav {
+    width: 100vw;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.lolik {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+
+.topnav .icon {
+    display: none;
+}
 .logo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -369,3 +409,11 @@ hr {
     font-size: 10px !important;
     color: white !important;
 }
+
+
+
+/**/
+
+
+
+
