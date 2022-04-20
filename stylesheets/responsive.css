@@ -9,7 +9,7 @@
         margin-top: 50px;
     }
     .third {
-        height: 1400px;
+        height: 1100px;
     }
     .fourth1 {
         flex-direction: column;
@@ -18,7 +18,9 @@
     .cards2Photo {
         /*width: 90vw;*/
     }
-
+    .cards2 {
+        margin-top: 60px;
+    }
     .form {
         margin: auto;
         margin-top: 20px;
@@ -48,12 +50,19 @@
         grid-template-rows: 1fr;
         height: auto;
     }
+    .third {
+        height: 700px;
+    }
+    .cards2 {
+        margin-top: 20px;
+    }
+
     .block-neon {
-        height: 1800px;
+        height: 1750px;
 
     }
     .block-neon1 {
-        height: 1800px;
+        height: 1750px;
     }
     h1 {
         font-size: 30px;
@@ -122,10 +131,11 @@
     .cards2Photo {
         width: 90vw;
     }
-
-
-
-
+    .text2 {
+        font-size: 20px !important;
+        line-height: 20px;
+        margin-top: 10px;
+    }
 }
 /*@media (min-width:0px) and (max-width:700px) {*/
 /*    .header {*/
