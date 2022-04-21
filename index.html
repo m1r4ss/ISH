@@ -13,17 +13,6 @@
 </head>
 <body>
     <div class="first">
-<!--        <div class="header">-->
-<!--            <p class="logo">ISH</p>-->
-<!--            <div class="burger">-->
-<!--                <p class="item">О нас</p>-->
-<!--                <p class="item">ISH | NEON</p>-->
-<!--                <p class="item">ISH | AD</p>-->
-<!--                <p class="item">ISH | SM</p>-->
-<!--                <p class="item">ISH | Design</p>-->
-<!--            </div>-->
-<!--        </div>-->
-
         <div class="topnav" id="myTopnav">
             <div class="lolik">
                 <a href="#home" class="active">ISH</a>
@@ -54,7 +43,11 @@
                 </div>
                 <div class="bok">
                     <div class="line"></div>
-                    <div><a href="https://instagram.com/ish.group?igshid=YmMyMTA2M2Y=" target="_blank"><img class="inst" src="images/87390 1.svg"></a></div>
+                    <div>
+                        <a href="https://instagram.com/ish.group?igshid=YmMyMTA2M2Y=" target="_blank">
+                            <img class="inst" src="images/87390 1.svg">
+                        </a>
+                    </div>
                     <img class="inst" src="images/TikTok-Logo-PNG-Image 1.svg">
                 </div>
             </div>
@@ -94,11 +87,11 @@
             </h1>
             <p class="neon-text">Когда дело доходит до дизайна интерьера, неоновые вывески особенно цепляют внимание. И дело не только в том, что они ярко светят. Они невероятно красочны! Как то сияющее вечернее платье, которое Вы надеваете, когда хотите быть в центре внимания.</p>
             <div class="neon-photos">
-                <img src="images/9c87f67f65a65e3ed4547a367325e38e 1.png">
-                <img class="big-photo" src="images/IMG_0132.png">
-                <img src="images/IMG_0130.png">
-                <img src="images/IMG_0133.png">
-                <img src="images/IMG_0131.png">
+                <img src="images/9c87f67f65a65e3ed4547a367325e38e 1.png" loading="lazy">
+                <img class="big-photo" src="images/IMG_0132.png" loading="lazy">
+                <img src="images/IMG_0130.png" loading="lazy">
+                <img src="images/IMG_0133.png" loading="lazy">
+                <img src="images/IMG_0131.png" loading="lazy">
             </div>
             <button class="svyaz1">Свяжитесь с нами</button>
         </div>
@@ -112,11 +105,11 @@
             </h1>
             <p class="neon-text">Наружная реклама обладает «волшебным свойством» отпечатываться в подсознании людей. За те 0,5 – 3 секунды, что люди держат зрительный контакт с промоушен-щитом, яркий визуальный образ, логотип или название компании остаются у них в памяти как мимолетный отпечаток. Чем больше отпечатков – тем больше человек запоминает конкретную фирму, не отдавая себе в этом отчет.</p>
             <div class="neon-photos">
-                <img src="images/IMG_4270 1.png">
-                <img class="big-photo" src="images/IMG_4491 1.png">
-                <img src="images/IMG_4276 1.png">
-                <img src="images/IMG_4269 1.png">
-                <img src="images/IMG_4263 2.png">
+                <img src="images/IMG_4270 1.png" loading="lazy">
+                <img class="big-photo" src="images/IMG_4491 1.png" loading="lazy">
+                <img src="images/IMG_4276 1.png" loading="lazy">
+                <img src="images/IMG_4269 1.png" loading="lazy">
+                <img src="images/IMG_4263 2.png" loading="lazy">
             </div>
             <button class="svyaz1 rekl">Свяжитесь с нами</button>
         </div>
@@ -134,11 +127,11 @@
                 <br>
                 Мы можем показать дом или здание с помощью буклета или видео. Но давайте подведем его к красивому макету и вы увидите разницу в реакции покупателя!</p>
             <div class="neon-photos">
-                <img src="images/IMG_0135.png">
-                <img class="big-photo" src="images/IMG_4282 1.png">
-                <img src="images/IMG_0137.png">
-                <img src="images/IMG_0136.png">
-                <img src="images/IMG_0138.png">
+                <img src="images/IMG_0135.png" loading="lazy">
+                <img class="big-photo" src="images/IMG_4282 1.png" loading="lazy">
+                <img src="images/IMG_0137.png" loading="lazy">
+                <img src="images/IMG_0136.png" loading="lazy">
+                <img src="images/IMG_0138.png" loading="lazy">
             </div>
             <button class="svyaz1 rekl">Свяжитесь с нами</button>
         </div>
@@ -165,14 +158,15 @@
         <div class="fourth1">
             <div>
                 <p class="contacts">Контакты</p>
-                <p class="contacts1">ул. Пушкина 41, Алматы 050000, Казахстан
+                <p class="contacts1">
+                    ул. Пушкина 41, Алматы 050000, Казахстан
                     <br>
                     shamil.iskander@mail.ru
                     <br>
                     +77079209355
                 </p>
             </div>
-            <form class="form">
+            <form class="form" method="post" asp-controller="MainPage" asp-action="SendEmailRequest">
                 <div class="form1">
                     <div class="form_group">
                         <input class="form_input" placeholder=" ">

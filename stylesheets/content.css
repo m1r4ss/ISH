@@ -30,6 +30,8 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 999;
 }
 
 .lolik {
@@ -111,9 +113,9 @@ hr {
 .svyaz {
     margin: auto;
     margin-top: 70px;
-    background-color: black;
-    border-color: black;
-    /*border-radius: 23px;*/
+    background-color: #6100FF;
+    border-color: #6100FF;
+    border-radius: 10px;
     color: white;
     width: 269px;
     height: 69px;
@@ -214,6 +216,7 @@ hr {
 }
 
 .cards2 {
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
     padding-top: 55px;
@@ -319,10 +322,11 @@ hr {
     display: flex;
 }
 .form_button {
+    border-radius: 10px;
     width: 100%;
     height: 60px;
-    background-color: black;
-    border-color: black;
+    background-color: #6100FF;
+    border-color: #6100FF;
     color: white;
     font-family: 'Montserrat';
     font-style: normal;
@@ -458,10 +462,12 @@ h1 {
 .svyaz1 {
     margin: auto;
     margin-top: 60px;
-    background-color: white;
-    border-color: white;
-    /*border-radius: 23px;*/
-    color: black;
+    /*background-color: white;*/
+    /*border-color: white;*/
+    background-color: #6100FF;
+    border-color: #6100FF;
+    border-radius: 10px;
+    color: white;
     width: 269px;
     height: 69px;
     font-family: 'Montserrat';
@@ -471,6 +477,7 @@ h1 {
     line-height: 29px;
     cursor: pointer;
 }
+
 .svyaz1:hover {
     background-color: black;
     color: white;
@@ -484,8 +491,8 @@ h1 {
 }
 
 .rekl {
-    background-color: black !important;
-    border-color: black !important;
+    background-color: #6100FF !important;
+    border-color: #6100FF !important;
     color: white !important;
 }
 .rekl:hover {
