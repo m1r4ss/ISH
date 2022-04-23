@@ -86,7 +86,8 @@ hr {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    margin-top: 280px;
+    margin-top: 100px;
+    justify-content: space-around;
 }
 .info {
     margin: auto;
@@ -95,6 +96,72 @@ hr {
     font-weight: 400;
     font-size: 64px;
     line-height: 78px;
+}
+.general3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 700px;
+}
+.general-text {
+    width: 60vw;
+    font-size: 24px;
+    padding-right: 10px;
+}
+.uslugi {
+    font-size: 40px;
+}
+
+.slides {
+    /*width: 233.47px;*/
+    /*height: 230.02px;*/
+    width: 15vw;
+    height: 230px;
+}
+.photo {
+    background-image: url("../images/Group 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photo2 {
+    background-image: url("../images/Group 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photo3 {
+    background-image: url("../images/Group 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photo4 {
+    background-image: url("../images/Group 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rev_slider {
+    margin-top: 20px;
+}
+.slick-dotted.slick-slider {
+    width: 50vw;
+}
+.slick-slide {
+    margin: auto;
+}
+.slick-list {
+    margin: auto;
+}
+.slick-dots li.slick-active button:before {
+    color: black!important;
+}
+.slick-dots li button:before {
+    padding-top: 30px;
+    font-size: 10px !important;
+    color: black !important;
 }
 .spisok {
     font-weight: 400;
@@ -132,6 +199,7 @@ hr {
 }
 
 .bok {
+    margin: auto;
     margin-right: 15px;
     display: flex;
     flex-direction: column;
@@ -365,58 +433,7 @@ hr {
     margin-top: 60px;
 }
 
-.photo {
-    background-image: url("../images/Group 4.svg");
-    width: 420.98px;
-    height: 563.2px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.photo2 {
-    background-image: url("../images/Group 5.svg");
-    width: 420.98px;
-    height: 563.2px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.photo3 {
-    background-image: url("../images/Group 6.svg");
-    width: 420.98px;
-    height: 563.2px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.photo4 {
-    background-image: url("../images/Group 5.svg");
-    width: 420.98px;
-    height: 563.2px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
-.rev_slider {
-    margin-top: 97px;
-    display: flex;
-}
-.slick-slide {
-    margin: auto;
-}
-.slick-list {
-    width: 100%;
-    margin: auto;
-}
-.slick-dots li.slick-active button:before {
-    color: white !important;
-}
-.slick-dots li button:before {
-    padding-top: 30px;
-    font-size: 10px !important;
-    color: white !important;
-}
 
 /**/
 h1 {
