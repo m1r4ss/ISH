@@ -8,7 +8,21 @@ $(function (){
         autoplaySpeed: 2000,
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 750,
+                settings: {
+                    arrows: false,
+                    dots: true,
+                    autoplay : true,
+                    autoplaySpeed: 2000,
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            ]
     })
 })
 

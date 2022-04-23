@@ -12,6 +12,12 @@
     .general-text {
         font-size: 20px;
     }
+    .info {
+        padding-left: 5px;
+    }
+    .bok {
+        padding-right: 5px;
+    }
     .uslugi {
         font-size: 32px;
     }
@@ -128,8 +134,8 @@
         margin-bottom: 20px;
     }
     .slides {
-        width: 28vw;
-        height: 28vw;
+        width: 35vw;
+        height: 35vw;
     }
     .slick-dotted.slick-slider {
         width: 90vw;
