@@ -37,6 +37,41 @@ $button.addEventListener('click', e => {
     });
 });
 
+const $ishMakets = document.querySelector('.button-makets')
+const $makets = document.querySelector('.block-neon1')
+
+$ishMakets.addEventListener('click', e=> {
+
+    $makets.scrollIntoView({
+        block: 'start',
+        behavior: 'smooth',
+    })
+})
+
+const $ishNeon = document.querySelector('.button-neon')
+const $neon = document.querySelector('.block-neon')
+
+$ishNeon.addEventListener('click', e=> {
+
+    $neon.scrollIntoView({
+        block: 'start',
+        behavior: 'smooth',
+    })
+})
+const $ishAdv = document.querySelector('.button-adv')
+const $adv = document.querySelector('.advirtesment')
+
+$ishAdv.addEventListener('click', e=> {
+
+    $adv.scrollIntoView({
+        block: 'start',
+        behavior: 'smooth',
+    })
+})
+
+
+
+
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {

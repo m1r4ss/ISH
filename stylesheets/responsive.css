@@ -31,7 +31,7 @@
         margin-top: 50px;
     }
     .third {
-        height: 1100px;
+        height: 1150px;
     }
     .fourth1 {
         flex-direction: column;
@@ -64,6 +64,9 @@
 }
 
 @media (min-width:0px) and (max-width:750px) {
+    .sp {
+        display: none;
+    }
     .line {
         display: none;
     }
@@ -81,18 +84,18 @@
         height: auto;
     }
     .third {
-        height: 1000px;
+        height: 900px;
     }
     .cards2 {
         margin-top: 20px;
     }
 
     .block-neon {
-        height: 1750px;
+        height: 1550px;
 
     }
     .block-neon1 {
-        height: 1750px;
+        height: 1550px;
     }
     h1 {
         font-size: 30px;
@@ -147,8 +150,10 @@
         padding-left: 0;
     }
     .general3 {
-        padding-left: 0;
-        height: 550px;
+        padding-left: 0;;
+    }
+    .katalog {
+        width: 90vw;
     }
     .bok {
        margin: auto;
@@ -156,6 +161,7 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        margin-top: 60px;
 
     }
     .header3 {
@@ -176,7 +182,7 @@
     }
     .svyaz {
         margin: auto;
-        margin-top: 70px;
+        margin-top: 30px;
     }
     .form1 {
         flex-direction: column;
@@ -189,12 +195,24 @@
     }
 
     .cards2Photo {
-        width: 90vw;
+        width: 490px;
     }
     .text2 {
         font-size: 20px !important;
         line-height: 20px;
         margin-top: 10px;
+    }
+    .kons {
+        font-size: 25px;
+    }
+    .dover img {
+        width: 27vw;
+    }
+    .third3 {
+        margin-top: 0;
+    }
+    .dover-text {
+       font-size: 35px;
     }
 }
 
@@ -206,10 +224,38 @@
         margin-top: 10px;
     }
     .slides {
-    .slides {
         width: 30vw;
         height: 30vw;
     }
+    .katalog img{
+       width: 45vw;
+        padding: 10px;
+    }
+    .general {
+        margin-top: 70px;
+    }
+    .general-text {
+        margin-top: 90px;
+    }
+    .block-neon {
+        height: 1600px;
+
+    }
+    .block-neon1 {
+        height: 1600px;
+    }
+    .kons {
+        font-size: 20px;
+    }
+    .cards2Photo {
+        width: 340px;
+    }
+    .dover img {
+        width: 30vw;
+        margin: auto;
+    }
+    .dover-text {
+        font-size: 30px;
     }
 }
 /*@media (min-width:0px) and (max-width:700px) {*/
