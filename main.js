@@ -37,6 +37,39 @@ $button.addEventListener('click', e => {
     });
 });
 
+const $svyaz = document.querySelector('.svyaz1');
+const $form1 = document.querySelector('form');
+
+const $svyaz1 = document.querySelector('.rekl');
+const $form2 = document.querySelector('form');
+
+const $svyaz2 = document.querySelector('.rekl1');
+const $form3 = document.querySelector('form');
+
+$svyaz.addEventListener('click', e => {
+
+    $form1.scrollIntoView({
+        block: 'center',
+        behavior: 'smooth',
+    });
+});
+
+$svyaz1.addEventListener('click', e => {
+
+    $form2.scrollIntoView({
+        block: 'center',
+        behavior: 'smooth',
+    });
+});
+
+$svyaz2.addEventListener('click', e => {
+
+    $form3.scrollIntoView({
+        block: 'center',
+        behavior: 'smooth',
+    });
+});
+
 const $ishMakets = document.querySelector('.button-makets')
 const $makets = document.querySelector('.block-neon1')
 
